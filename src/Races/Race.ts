@@ -21,3 +21,5 @@ export default abstract class Race {
     throw new Error('Not implemented');
   }
 }
+
+// https://www.typescripttutorial.net/typescript-tutorial/typescript-abstract-classes/
