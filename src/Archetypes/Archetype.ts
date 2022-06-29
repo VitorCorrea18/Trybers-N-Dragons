@@ -11,15 +11,15 @@ export default abstract class Archetype {
     this._cost = 0;
   }
 
-  get name():string {
+  get name() {
     return this._name;
   }
 
-  get special():number {
+  get special() {
     return this._special;
   }
 
-  get cost():number {
+  get cost() {
     return this._cost;
   }
 

@@ -10,7 +10,7 @@ export default class Necromancer extends Archetype {
     Necromancer._createdArchetypeInstances += 1;
   }
 
-  get energyType(): string {
+  get energyType() {
     return this._energytype;
   }
 
